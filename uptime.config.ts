@@ -28,10 +28,10 @@ const workerConfig: WorkerConfig = {
       name: 'Authelia',
     },
     {
-      id: 'flapalerted',
+      id: 'matrix',
       method: 'GET',
-      target: 'https://flapalerted.fovir.fyi/',
-      name: 'Flapalerted',
+      target: 'https://matrix.fovir.fyi/',
+      name: 'Matrix',
     },
     {
       id: 'wakapi',

@@ -22,10 +22,10 @@ const workerConfig: WorkerConfig = {
       target: 'https://www.fovir.fyi',
     },
     {
-      id: 'authelia',
+      id: 'auth',
       method: 'GET',
       target: 'https://auth.fovir.fyi/',
-      name: 'Authelia',
+      name: 'VoidAuth',
     },
     {
       id: 'matrix',

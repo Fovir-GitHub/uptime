@@ -34,6 +34,12 @@ const workerConfig: WorkerConfig = {
       name: 'Matrix',
     },
     {
+      id: 'radicale',
+      method: 'GET',
+      target: 'https://radicale.fovir.fyi/',
+      name: 'Radicale',
+    },
+    {
       id: 'wakapi',
       method: 'GET',
       target: 'https://wakapi.fovir.fyi/',

@@ -9,7 +9,7 @@ const pageConfig: PageConfig = {
   // Title for your status page
   title: "Fovir's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
-  links: [{ link: 'https://www.fovir.fyi', label: 'Home Page' }],
+  links: [{ link: 'https://fovir.fyi', label: 'Home Page' }],
 }
 
 const workerConfig: WorkerConfig = {
@@ -19,7 +19,7 @@ const workerConfig: WorkerConfig = {
       id: 'home_page',
       name: 'Home Page',
       method: 'GET',
-      target: 'https://www.fovir.fyi',
+      target: 'https://fovir.fyi',
     },
     {
       id: 'auth',
